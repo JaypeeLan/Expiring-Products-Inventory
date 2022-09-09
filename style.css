@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: clamp(16px, 6vw, 2em);
+  text-align: left;
+}
+
+form {
+  height: 100px;
+  max-width: 100%;
+  margin-bottom: 50px;
+}
+
+fieldset {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+fieldset input {
+  padding: 10px;
+  width: 30%;
+}
+
+fieldset button {
+  padding: 10px;
+}
+
+::placeholder {
+  font-weight: 700;
+  font-size: clamp(10px, 1.5vw, 16px);
+}
+
+fieldset button:hover {
+  color: azure;
+  background-color: black;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+}
+
+/* ------ */
+.warning {
+  background-color: red;
+}
+/* ------ */
+
+#headings > h2 {
+  font-size: clamp(14px, 1.5vw, 17px);
+}
+
+#headings,
+#isOutput > div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+
+#display {
+  border: 2px solid black;
+  border-bottom: 0;
+}
+
+#headings,
+#isOutput > div {
+  border-bottom: 2px solid black;
+}
+
+#isOutput > div > * {
+  font-size: clamp(14px, 1.5vw, 17px);
+  font-weight: 500;
+}
+
+#isOutput > div button {
+  border: none;
+  border-left: 1px solid black;
+  background-color: rgb(70, 203, 114);
+}
+
+#isOutput > div:nth-child(2n + 1) {
+  background-color: rgb(55, 41, 99);
+}
+#isOutput > div:nth-child(3n + 1) {
+  background-color: rgb(0, 128, 94);
+}
+
+#isOutput > div button:hover {
+  background-color: red;
+  transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  -ms-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+}
