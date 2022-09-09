@@ -1,5 +1,5 @@
 # Expiring items tracker Inventory
-[Preview]()
+[Live Preview](https://expiring-prod-inventory.netlify.app/)
 ### About This Project
 So i have a friend who is a caterer. She complains about having to buy to buy new ingredients almost everything she wants to prepare something because they are either expired or she just guess that what she has at home is expired already. I got this idea of what of what if i create something like a calender where she can just write down the expiring date of each ingredient she gets so she can lookup and see what she only needs to get before she goes to the market.
 
